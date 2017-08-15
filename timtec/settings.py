@@ -219,6 +219,8 @@ INSTALLED_APPS = (
     'rest_framework',
     'rosetta',
     'autoslug',
+    # For better tags
+    'tagulous',
     # TIM Tec
     'accounts',
     'activities',
