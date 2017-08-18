@@ -78,3 +78,6 @@ easy-thumbnails==2.4.1
 
 # Gunicorn (application server)
 gunicorn==19.7.1
+
+# Django Cards (this plugin is a life-savior)
+drf-writable-nested==0.3.0
