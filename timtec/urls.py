@@ -201,6 +201,11 @@ if 'paralapraca' in settings.INSTALLED_APPS:
         url(r'^congresso/$', TemplateView.as_view(template_name="home-congresso.html"), name='home_congresso'),
     )
 
+if 'django_cards' in settings.INSTALLED_APPS:
+    urlpatterns += (
+        url(r'^django_cards/', include('django_cards.urls', namespace='django_cards')),
+    )
+
 if settings.TWITTER_USER != '':
     from core.views import TwitterApi
 
